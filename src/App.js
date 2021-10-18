@@ -1,12 +1,12 @@
-// import Report from './component/Reports/Report';
+import Report from './component/Reports/Report';
 import Button from './component/Button/Button';
 import './App.css';
 
 function App() {
   return (
     <>
-      {/* <Report /> */}
-      <Button />
+      <Report />
+      {/* <Button /> */}
   </>
   );
 }
