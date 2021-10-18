@@ -1,6 +1,7 @@
 import SwiperReport from "../Swiper/SwiperReport";
 import Accounting from "../Accounting/Accounting";
 import Chartjs from "../Chartjs/Chartjs";
+import StatisticMenu from '../StatisticMenu/StatisticMenu';
 
 
 
@@ -10,6 +11,9 @@ import styles from "./Report.module.css";
 function Report() {
   return (
     <>
+      <StatisticMenu
+       />
+      
       <div className={styles.categories}>
       
         <div className={styles.dataline}>

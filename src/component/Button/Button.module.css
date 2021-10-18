@@ -1,0 +1,9 @@
+.button {
+  border: none;
+  width: 100px;
+  height: 100px;
+}
+
+.button:focus {
+  fill: red;
+}
